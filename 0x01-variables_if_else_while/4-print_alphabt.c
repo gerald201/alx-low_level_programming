@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
+ * main - Entry Point
  * followed by a new line, except q and e
  * Return: Aways 0 (Sucess)
  */
@@ -16,3 +16,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
