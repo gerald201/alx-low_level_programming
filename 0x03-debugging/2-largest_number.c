@@ -1,28 +1,28 @@
+#include "main.h"
+
+
 /**
- * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
- * Return: largest number
- */
-
-int largest_number(int a, int b, int c)
+* print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+* followed by a new line
+*/
+void print_alphabet_x10(void)
 {
-	int largest;
+char ch;
+int i;
 
-	if (a > b && a > c)
-	{
-		largest = a;
-	}
-	else if (b > a && b > c)
-	{
-		largest = b;
-	}
-	else
-	{
-		largest = c;
-	}
 
-	return (largest);
+i = 0;
+
+
+while (i < 10)
+{
+ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
 }
-
+_putchar('\n');
+i++;
+}
+}
