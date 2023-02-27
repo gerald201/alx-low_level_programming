@@ -14,3 +14,6 @@ longi++;
 s++;
 }
 
+return (longi);
+}
+
