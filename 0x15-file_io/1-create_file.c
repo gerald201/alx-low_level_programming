@@ -2,7 +2,7 @@
 
 /**
  * _strlen - finds the length of a string
- * author: NerFLee
+ * author: Gerald
  * @str: pointer to the string
  *
  * Return: length of the string
@@ -34,7 +34,7 @@ int create_file(const char *filename, char *text_content)
 	if (c == -1)
 		return (-1);
 	if (text_content != NULL)
-		len = write(c, text_content, _strlen(text_content));
+		lenz = write(c, text_content, _strlen(text_content));
 	close(c);
 	if (lenz == -1)
 		return (-1);
